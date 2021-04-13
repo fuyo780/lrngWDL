@@ -1,0 +1,12 @@
+{
+    "name": "WDL Test Environment",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "wdl",
+    "workspaceFolder": "/tmp/work",
+    "settings": {
+      "editor.tabSize": 4
+    }, 
+    // "extensions": [
+    //   "ms-python.python"
+    // ],
+}

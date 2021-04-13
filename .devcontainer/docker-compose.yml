@@ -1,0 +1,12 @@
+version: '3.2'
+
+services: 
+  wdl:
+    image: wdl:1.0
+    build: ./
+    container_name: 'wdl'
+    stdin_open: true
+    tty: true
+    working_dir: '/tmp/work'
+    volumes: 
+      - ../wdl:/tmp/work
